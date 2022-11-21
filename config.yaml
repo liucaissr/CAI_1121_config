@@ -1,0 +1,64 @@
+generalInformation:
+  serviceAdminEmail: cai.liu@allianz.de
+  gheUsername: liucaissr
+  billingAccount: JEQP
+  billingTeamName: jeqp
+  gheToken: ""
+  adpAccessToken: ""
+projectInformation:
+  projectName: CAI_1121
+  projectShortName: CAI_1121
+  buildType: maven
+  testInstance: true
+  preprodInstance: true
+  uatInstance: true
+cloudService:
+  awsOrAzure: eks
+  deploymentLocation: aws_ec1
+  acpOrCRP: crp
+  displayName: CAIp1
+  version: "2.0"
+  productionCluster: false
+  subscriptionId: ""
+  enableStorageProvisioning: true
+  ingressSubnetName: ""
+  clusterSubnetName: ""
+  adAdminGroupName: ""
+  adViewerGroupName: ""
+  adEditorGroupName: ""
+  privateDnsZone: ""
+  awsAccountId: asdfgh
+  instanceType: sd
+  r53HostedZoneDomainName: sdfg
+  sshWorkerKey: dfgh
+  availabilityZones: "2"
+  az1HarmonizedSubnetId: asdf
+  az1WorkerSubnetId: dfgh
+  az1PodSubnetId: asdfg
+  az2HarmonizedSubnetId: sdfg
+  az2WorkerSubnetId: xfgh
+  az2PodSubnetId: fgh
+  az3HarmonizedSubnetId: ""
+  az3WorkerSubnetId: ""
+  az3PodSubnetId: ""
+  workerSecurityGroupIds: ""
+  ingressSecurityGroupIds: ""
+  customDefinedAutomationAdminRole: ""
+automationService:
+  jenkinsOrGithubActions: jenkins
+  jenkinsWebhook: ""
+  jenkinsAdmin: jeqp-admin
+  jenkinsDeveloper: jeqp-jenkins
+  kubernetesAccess: jeqp-jenkins
+  kvUserOrGroupName: jeqp-kv
+gheOrganization:
+  organizationName: liucaissr
+  isNew: false
+testingTools:
+  sonarQube: true
+jira:
+  projectKey: CAIBDOP
+  projectName: CAIBDOP
+  leadUsername: cai.liu@allianz.de
+  documentationUrl: ""
+  adminToken: ""
